@@ -5,5 +5,5 @@ dotenv.config();
 const PORT = process.env.PORT;
 
 app.listen(PORT, () => {
-  console.log("Server berjalan di port 3000");
+  console.log(`Server berjalan di port ${PORT}`);
 });
